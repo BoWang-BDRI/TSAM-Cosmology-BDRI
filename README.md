@@ -14,8 +14,11 @@ TSAM replaces the expanding universe paradigm with a **Ternary Space Arbitration
 
 ## 官方学术存档 / Academic Archive
 The full paper and high-resolution topology diagrams are archived on Zenodo:
-👉 **DOI:** [10.5281/zenodo.19456031](https://doi.org/10.5281/zenodo.19456031)
-👉 **DOI:** [10.5281/zenodo.19951835](https://doi.org/10.5281/zenodo.19951835)
+
+* **TSAM Archive DOI:** [10.5281/zenodo.19456031](https://doi.org/10.5281/zenodo.19456031)
+* **TSAM Archive DOI:** [10.5281/zenodo.19951835](https://doi.org/10.5281/zenodo.19951835)
+* **CRIF Paper DOI:** [10.5281/zenodo.20267618](https://doi.org/10.5281/zenodo.20267618) - _CRIF: A Coordinate-Free Kernelized Residual Inference Framework for Reference-Frame Robustness under Misspecified Dynamical Priors_
+
 ## 项目计划 / Projects
 * **天梯计划 (Sky Ladder Project):** Orbital Tension Infrastructure System (OTIS) development.
 * **Ternary Space Arbitration Model:** Mathematical derivation and simulation.
