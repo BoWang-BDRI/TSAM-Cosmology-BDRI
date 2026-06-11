@@ -16,7 +16,7 @@ TSAM replaces the expanding universe paradigm with a **Ternary Space Arbitration
 The full paper and high-resolution topology diagrams are archived on Zenodo:
 
 * **TSAM Archive DOI:** [10.5281/zenodo.19456031](https://doi.org/10.5281/zenodo.19456031)
-* **TSAM Archive DOI:** [10.5281/zenodo.19951835](https://doi.org/10.5281/zenodo.19951835)
+* **TSAM Deep Correction DOI:** [10.5281/zenodo.19951835](https://doi.org/10.5281/zenodo.19951835) - _Deep Correction of the Intrinsic Scale under the TSAM Framework: Measure Balancing Based on 20-Vigesimal Discrete Manifolds and Final Calibration of H0_
 * **CRIF Paper DOI:** [10.5281/zenodo.20267618](https://doi.org/10.5281/zenodo.20267618) - _CRIF: A Coordinate-Free Kernelized Residual Inference Framework for Reference-Frame Robustness under Misspecified Dynamical Priors_
 
 ## 项目计划 / Projects
