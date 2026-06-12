@@ -2,12 +2,17 @@
 
 This page provides a practical citation guide for TSAM-related public materials.
 
+## Author identifier
+
+**Lead researcher:** Bo Wang  
+**ORCID:** [0009-0004-1351-1755](https://orcid.org/0009-0004-1351-1755)
+
 ## Repository citation
 
 When citing this GitHub repository as a project index, cite it as:
 
 ```text
-Bo Wang. Trinity Space Arbitration Model (TSAM) public research repository. Bipolar-Dynamics Research Institute (BDRI), 2026. GitHub repository.
+Bo Wang. Trinity Space Arbitration Model (TSAM) public research repository. Bipolar-Dynamics Research Institute (BDRI), 2026. GitHub repository. ORCID: 0009-0004-1351-1755.
 ```
 
 ## Zenodo archive citation
@@ -30,6 +35,7 @@ Use the most specific source available:
 1. Use a Zenodo DOI for archived papers, diagrams, correction notes, or formal records.
 2. Use the GitHub repository for the current public index, roadmap, glossary, and validation documentation.
 3. Use individual document paths when citing a specific explanation or methodology page.
+4. Include the ORCID identifier when referencing the lead researcher or author metadata.
 
 ## Citation boundary
 
@@ -46,5 +52,5 @@ When discussing TSAM externally, distinguish between:
 ## Suggested short reference
 
 ```text
-Wang, B. (2026). Trinity Space Arbitration Model (TSAM): Public Research Index and Validation Framework. Bipolar-Dynamics Research Institute. GitHub / Zenodo archive chain.
+Wang, B. (2026). Trinity Space Arbitration Model (TSAM): Public Research Index and Validation Framework. Bipolar-Dynamics Research Institute. GitHub / Zenodo archive chain. ORCID: 0009-0004-1351-1755.
 ```
