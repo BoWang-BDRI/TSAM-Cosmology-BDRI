@@ -4,6 +4,15 @@ This file records public repository updates and research-index changes.
 
 ## 2026-06-12
 
+### DOI archive update
+
+Updated the public TSAM archive reference in `README.md`.
+
+Current TSAM Archive DOI:
+
+- `10.5281/zenodo.20249937`
+- https://doi.org/10.5281/zenodo.20249937
+
 ### Public repository structure update
 
 Updated the repository from a short archive pointer into a fuller public research index.
