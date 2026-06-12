@@ -36,6 +36,7 @@ Core methodological commitments:
 | [`docs/faq.md`](docs/faq.md) | Frequently asked questions for external readers |
 | [`docs/glossary.md`](docs/glossary.md) | Working definitions of TSAM-related terms |
 | [`docs/how-to-cite.md`](docs/how-to-cite.md) | Citation guide for GitHub and Zenodo archive records |
+| [`validation/solar-system-layer.md`](validation/solar-system-layer.md) | Solar-system / small-body fast-pass validation layer |
 | [`research-log.md`](research-log.md) | Public repository update log |
 
 ---
@@ -66,7 +67,7 @@ TSAM-related work is currently organized around several audit layers:
 | QSO redshift-space structure | Cross-epoch continuity and phase-consistency layer |
 | LRG / galaxy-density fields | Matter-distribution and large-scale wall detection layer |
 | SPARC rotation residuals | Local dynamical-prior stress test using galaxy rotation data |
-| Solar-system boundary tests | Low-redshift termination and local-frame consistency checks |
+| [Solar-system boundary tests](validation/solar-system-layer.md) | Low-redshift termination and local-frame consistency checks; currently fast-pass small-body triage |
 
 ---
 
