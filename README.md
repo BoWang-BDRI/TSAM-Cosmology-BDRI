@@ -42,6 +42,7 @@ Core methodological commitments:
 | [`validation/midfield-cosmology-layer.md`](validation/midfield-cosmology-layer.md) | Midfield redshift / angular-density diagnostic layer |
 | [`validation/rtn-nearfield-layer.md`](validation/rtn-nearfield-layer.md) | RTN near-field dynamical-response diagnostic layer |
 | [`validation/solar-system-layer.md`](validation/solar-system-layer.md) | Solar-system / small-body fast-pass validation layer |
+| [`validation/pipeline-and-formal-obstruction-tests.md`](validation/pipeline-and-formal-obstruction-tests.md) | Pipeline diagnostics and formal obstruction test summary |
 | [`research-log.md`](research-log.md) | Public repository update log |
 
 ---
@@ -75,6 +76,7 @@ TSAM-related work is currently organized around several audit layers:
 | SPARC rotation residuals | Local dynamical-prior stress test using galaxy rotation data |
 | [RTN near-field diagnostics](validation/rtn-nearfield-layer.md) | RTN non-conservative acceleration and epsilon-audit candidate layer |
 | [Solar-system boundary tests](validation/solar-system-layer.md) | Low-redshift termination and local-frame consistency checks; currently fast-pass small-body triage |
+| [Pipeline and formal obstruction tests](validation/pipeline-and-formal-obstruction-tests.md) | Catalog-level Jacobian jump diagnostics and formal operator-space obstruction tests |
 
 ---
 
