@@ -16,6 +16,7 @@ Each validation track should eventually specify dataset source, preprocessing as
 | In audit | Data workflow or metric under active development |
 | Fast-pass triage | Initial audit result exists, but final bias-cleared interpretation is not allowed |
 | Diagnostic candidate | Figure/table-supported signal candidate; not yet promoted to physical interpretation |
+| Formal diagnostic | Operator-space or mathematical-structure test; not direct observational confirmation |
 | Archived | Public DOI or repository record exists |
 | Reproducible | Independent or internally repeatable workflow exists |
 | Under review | Result frozen for review against external constraints |
@@ -32,6 +33,7 @@ Each validation track should eventually specify dataset source, preprocessing as
 | SPARC rotation residuals | Local dynamical-prior stress test using galaxy rotation data | In audit |
 | [RTN near-field diagnostics](../validation/rtn-nearfield-layer.md) | RTN non-conservative acceleration and epsilon-audit candidate layer | In audit / Diagnostic candidate |
 | [Solar-system boundary tests](../validation/solar-system-layer.md) | Low-redshift termination and local-frame consistency checks; currently small-body angular-distribution triage | In audit / Fast-pass triage |
+| [Pipeline and formal obstruction tests](../validation/pipeline-and-formal-obstruction-tests.md) | Jacobian jump audit plus formal operator-space obstruction diagnostics | In audit / Formal diagnostic |
 | JWST high-redshift anomalies | Early-universe stress test for expansion and formation assumptions | Proposed |
 | CRIF residual inference | Reference-frame robustness and coordinate-free residual checks | Archived |
 
@@ -42,6 +44,7 @@ Each validation track should eventually specify dataset source, preprocessing as
 | [`validation/midfield-cosmology-layer.md`](../validation/midfield-cosmology-layer.md) | In audit / Diagnostic candidate | Corrected 0.4-0.7 angular-density matrix, 0.7-1.0 matrix, stage-2 audit, and reconstruction accounting |
 | [`validation/rtn-nearfield-layer.md`](../validation/rtn-nearfield-layer.md) | In audit / Diagnostic candidate | RTN model-response and epsilon-audit visualization layer; requires raw ephemeris reproducibility package |
 | [`validation/solar-system-layer.md`](../validation/solar-system-layer.md) | In audit / Fast-pass triage | Family-limited small-body orbital-direction anisotropy candidate; not a TSAM confirmation claim |
+| [`validation/pipeline-and-formal-obstruction-tests.md`](../validation/pipeline-and-formal-obstruction-tests.md) | In audit / Formal diagnostic | ELG NGC WEIGHT Jacobian jump candidate; formal spectral, algebraic, measure, Hilbert, and BRST diagnostics; includes downgrade notes |
 
 ## Minimum validation record
 
@@ -75,6 +78,7 @@ The next documentation stage should add or mature one page per validation layer:
 - `validation/sparc-layer.md`
 - `validation/rtn-nearfield-layer.md` — active diagnostic-candidate page added
 - `validation/solar-system-layer.md` — active fast-pass triage page added
+- `validation/pipeline-and-formal-obstruction-tests.md` — active formal-diagnostic page added
 - `validation/jwst-layer.md`
 
 Each page should use the same validation template so that external reviewers can compare the layers without relying on narrative interpretation.
