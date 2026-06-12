@@ -4,14 +4,35 @@ This file records public repository updates and research-index changes.
 
 ## 2026-06-12
 
+### Community-readiness documentation update
+
+Added a public-facing documentation layer to support controlled external review before broader community expansion.
+
+Changes:
+
+- Added `docs/faq.md` for external-reader questions.
+- Added `docs/glossary.md` for working TSAM terminology.
+- Added `docs/how-to-cite.md` for repository and Zenodo citation guidance.
+- Added `docs/data-validation-index.md` for dataset-layer validation status tracking.
+- Added `docs/public-claims-boundary.md` to separate archive records, hypotheses, audit directions, and reproducible claims.
+- Updated `README.md` with a public repository guide and community observation track.
+
+Purpose:
+
+- Improve repository readability before entering external communities.
+- Reduce misunderstanding around unverified assumptions and provisional claims.
+- Prepare a clean structure for small-community observation, terminology testing, and reproducibility feedback.
+
 ### DOI archive update
 
-Updated the public TSAM archive reference in `README.md`.
+Updated the public TSAM archive reference in `README.md` and later restored the complete Zenodo archive table.
 
-Current TSAM Archive DOI:
+Current Zenodo DOI archive chain:
 
-- `10.5281/zenodo.20249937`
-- https://doi.org/10.5281/zenodo.20249937
+- `10.5281/zenodo.19456031` — TSAM Primary Archive
+- `10.5281/zenodo.19951835` — TSAM Deep Correction
+- `10.5281/zenodo.20249937` — TSAM Updated Archive
+- `10.5281/zenodo.20267618` — CRIF Paper
 
 ### Public repository structure update
 
@@ -43,5 +64,5 @@ Potential future updates:
 - Add a SPARC residual-audit index.
 - Add a QSO / LRG cross-epoch audit index.
 - Add a CMB validation note.
-- Add a public glossary of TSAM terms.
-- Add a dataset-status table for reproducibility tracking.
+- Add validation-layer templates under `validation/`.
+- Add external-community observation notes after initial review testing.
