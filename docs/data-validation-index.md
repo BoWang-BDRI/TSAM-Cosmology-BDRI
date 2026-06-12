@@ -23,6 +23,7 @@ Each validation track should eventually specify:
 |---|---|
 | Proposed | Conceptual direction identified, no stable validation protocol yet |
 | In audit | Data workflow or metric under active development |
+| Fast-pass triage | Initial audit result exists, but final bias-cleared interpretation is not allowed |
 | Archived | Public DOI or repository record exists |
 | Reproducible | Independent or internally repeatable workflow exists |
 | Under review | Result frozen for review against external constraints |
@@ -36,9 +37,15 @@ Each validation track should eventually specify:
 | QSO redshift-space structure | Cross-epoch continuity and phase-consistency tests | Proposed / In audit |
 | LRG / galaxy-density fields | Matter-distribution and large-scale wall detection | Proposed / In audit |
 | SPARC rotation residuals | Local dynamical-prior stress test using galaxy rotation data | In audit |
-| Solar-system boundary tests | Low-redshift termination and local-frame consistency checks | Proposed |
+| [Solar-system boundary tests](../validation/solar-system-layer.md) | Low-redshift termination and local-frame consistency checks; currently small-body angular-distribution triage | In audit / Fast-pass triage |
 | JWST high-redshift anomalies | Early-universe stress test for expansion and formation assumptions | Proposed |
 | CRIF residual inference | Reference-frame robustness and coordinate-free residual checks | Archived |
+
+## Active validation pages
+
+| Page | Status | Notes |
+|---|---|---|
+| [`validation/solar-system-layer.md`](../validation/solar-system-layer.md) | In audit / Fast-pass triage | Family-limited small-body orbital-direction anisotropy candidate; not a TSAM confirmation claim |
 
 ## Minimum validation record
 
@@ -71,7 +78,7 @@ The next documentation stage should add one page per validation layer:
 - `validation/qso-layer.md`
 - `validation/lrg-layer.md`
 - `validation/sparc-layer.md`
-- `validation/solar-system-layer.md`
+- `validation/solar-system-layer.md` — active fast-pass triage page added
 - `validation/jwst-layer.md`
 
 Each page should use the same validation template so that external reviewers can compare the layers without relying on narrative interpretation.
