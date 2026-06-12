@@ -4,6 +4,9 @@
 
 Welcome to the public research repository of the **Trinity Space Arbitration Model (TSAM)** and related observational-audit work led by **Bo Wang**.
 
+**Lead Researcher:** Bo Wang  
+**ORCID:** [0009-0004-1351-1755](https://orcid.org/0009-0004-1351-1755)
+
 TSAM is presented here as a **reality-constrained cosmological research framework**. The project explores whether recurrent astrophysical and cosmological anomalies can be organized through cross-domain observational auditing, fixed-rule validation, and explicit provisional labeling of unverified assumptions.
 
 The purpose of this repository is to provide a clean public index for TSAM theory notes, validation principles, research logs, and reproducible analysis directions.
@@ -100,4 +103,4 @@ Progress updates are recorded in [`research-log.md`](research-log.md).
 
 ---
 
-© 2026 Bipolar-Dynamics Research Institute (BDRI). Lead Researcher: Bo Wang.
+© 2026 Bipolar-Dynamics Research Institute (BDRI). Lead Researcher: Bo Wang. ORCID: [0009-0004-1351-1755](https://orcid.org/0009-0004-1351-1755).
