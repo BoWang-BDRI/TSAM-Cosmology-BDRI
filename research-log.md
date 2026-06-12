@@ -4,6 +4,25 @@ This file records public repository updates and research-index changes.
 
 ## 2026-06-12
 
+### ORCID author identifier added
+
+Added the lead researcher ORCID identifier to public repository metadata and citation guidance.
+
+Updated files:
+
+- `README.md`
+- `docs/how-to-cite.md`
+
+Author identifier:
+
+- Bo Wang — ORCID: `0009-0004-1351-1755`
+
+Purpose:
+
+- Improve author disambiguation.
+- Strengthen citation metadata for Zenodo and GitHub references.
+- Prepare the repository for controlled external review and small-community observation.
+
 ### Midfield cosmology and RTN near-field validation layers added
 
 Added two additional validation-layer pages under `validation/`:
