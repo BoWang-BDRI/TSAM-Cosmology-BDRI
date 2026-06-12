@@ -4,6 +4,32 @@ This file records public repository updates and research-index changes.
 
 ## 2026-06-12
 
+### Solar-system small-body validation layer added
+
+Added the first validation-layer page under `validation/`:
+
+- `validation/solar-system-layer.md`
+
+The page summarizes the uploaded small-body discovery-bias and window-stability supplement as a restrained validation record.
+
+Public claim level:
+
+- In audit / fast-pass triage.
+- Family-limited near-field orbital-direction anisotropy candidate.
+- Not a TSAM confirmation claim.
+- Not a fixed-axis, external-forcing, or solar-system-alignment proof.
+
+Supporting audit components summarized in the page:
+
+- Window C 330-30 focus audit.
+- Window A 240-285 focus audit.
+- Coordinate-artifact rotation check.
+- Family-size matched null audit.
+- Multiple-testing / Benjamini-Hochberg FDR audit.
+- MPCORB and CometEls parser crossmatch limitation notes.
+
+The README and data-validation index were updated to link this validation page.
+
 ### Community-readiness documentation update
 
 Added a public-facing documentation layer to support controlled external review before broader community expansion.
