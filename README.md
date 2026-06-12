@@ -64,7 +64,7 @@ TSAM-related work is currently organized around several audit layers:
 
 The full papers and high-resolution topology diagrams are archived on Zenodo:
 
-- **TSAM Archive DOI:** [10.5281/zenodo.19456031](https://doi.org/10.5281/zenodo.19456031)
+- **TSAM Archive DOI:** [10.5281/zenodo.20249937](https://doi.org/10.5281/zenodo.20249937)
 - **TSAM Deep Correction DOI:** [10.5281/zenodo.19951835](https://doi.org/10.5281/zenodo.19951835) — *Deep Correction of the Intrinsic Scale under the TSAM Framework: Measure Balancing Based on 20-Vigesimal Discrete Manifolds and Final Calibration of H0*
 - **CRIF Paper DOI:** [10.5281/zenodo.20267618](https://doi.org/10.5281/zenodo.20267618) — *CRIF: A Coordinate-Free Kernelized Residual Inference Framework for Reference-Frame Robustness under Misspecified Dynamical Priors*
 
