@@ -4,6 +4,27 @@ This file records public repository updates and research-index changes.
 
 ## 2026-06-12
 
+### Midfield cosmology and RTN near-field validation layers added
+
+Added two additional validation-layer pages under `validation/`:
+
+- `validation/midfield-cosmology-layer.md`
+- `validation/rtn-nearfield-layer.md`
+
+The midfield page summarizes the uploaded redshift/angular-density diagnostic material, including corrected 0.4-0.7 density matrices, 0.7-1.0 density matrices, stage-2 audit partitions, and reconstruction-accounting metadata.
+
+The RTN page summarizes the uploaded near-field dynamical-response visual diagnostics, including v11 RTN residual decomposition, v15 object-dependent acceleration response spectrum, and v16 normal-axis epsilon audit.
+
+Public claim level:
+
+- In audit / diagnostic candidate.
+- Useful for repository organization and external review.
+- Not a final TSAM confirmation claim.
+- Not a final cosmological-parameter solution.
+- Not a completed N-body residual proof.
+
+The README and data-validation index were updated to link both pages.
+
 ### Solar-system small-body validation layer added
 
 Added the first validation-layer page under `validation/`:
