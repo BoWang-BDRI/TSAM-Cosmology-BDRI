@@ -24,6 +24,22 @@ Core methodological commitments:
 
 ---
 
+## Public Repository Guide
+
+| Document | Purpose |
+|---|---|
+| [`docs/theory-overview.md`](docs/theory-overview.md) | Core TSAM theory introduction |
+| [`docs/validation-principles.md`](docs/validation-principles.md) | Observational validation rules and methodological constraints |
+| [`docs/research-roadmap.md`](docs/research-roadmap.md) | Research phases and future validation direction |
+| [`docs/data-validation-index.md`](docs/data-validation-index.md) | Dataset-layer validation index and status labels |
+| [`docs/public-claims-boundary.md`](docs/public-claims-boundary.md) | Public claim categories, limits, and external communication rules |
+| [`docs/faq.md`](docs/faq.md) | Frequently asked questions for external readers |
+| [`docs/glossary.md`](docs/glossary.md) | Working definitions of TSAM-related terms |
+| [`docs/how-to-cite.md`](docs/how-to-cite.md) | Citation guide for GitHub and Zenodo archive records |
+| [`research-log.md`](research-log.md) | Public repository update log |
+
+---
+
 ## Core Theory Overview
 
 TSAM investigates whether large-scale structure, redshift-space behavior, residual fields, and directional discontinuities can be analyzed as coupled manifestations of a deeper arbitration geometry.
@@ -36,12 +52,6 @@ Earlier TSAM notes describe a closed-loop universe topology and a ternary arbitr
 - **Reference-Frame Robustness:** A core concern of the CRIF paper, focused on residual inference under potentially misspecified dynamical priors.
 
 These concepts are treated as research hypotheses unless independently supported by reproducible observational tests.
-
-For a longer introduction, see:
-
-- [`docs/theory-overview.md`](docs/theory-overview.md)
-- [`docs/validation-principles.md`](docs/validation-principles.md)
-- [`docs/research-roadmap.md`](docs/research-roadmap.md)
 
 ---
 
@@ -79,6 +89,7 @@ The full papers, topology diagrams, correction notes, and related research recor
 - **CRIF Residual Framework:** Coordinate-free residual inference and reference-frame robustness tests.
 - **Sky Ladder Project:** Orbital Tension Infrastructure System (OTIS) conceptual development.
 - **Data Audit Track:** Cross-domain audits involving CMB, QSO, LRG, SPARC, and solar-system scale data.
+- **Community Observation Track:** Controlled external feedback through small scientific and technical communities.
 
 Progress updates are recorded in [`research-log.md`](research-log.md).
 
