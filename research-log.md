@@ -4,6 +4,34 @@ This file records public repository updates and research-index changes.
 
 ## 2026-06-12
 
+### Pipeline and formal obstruction validation page added
+
+Added a new validation page:
+
+- `validation/pipeline-and-formal-obstruction-tests.md`
+
+The page summarizes a command-line test batch containing:
+
+- ELG / QSO catalog-level Jacobian jump diagnostics.
+- A strong ELG NGC WEIGHT-channel Jacobian jump candidate.
+- TSAM v6.0 FITS scanning and clean-pipeline failure / empty-output diagnostics.
+- Formal spectral, algebraic, measure-theoretic, Hilbert-span, and BRST-style obstruction tests.
+- MPC raw-angle downgrade notes.
+- Engineering repair requirements for the pipeline.
+
+Public claim level:
+
+- In audit / formal diagnostic.
+- Catalog-level and operator-space diagnostic material only.
+- Not a final TSAM confirmation claim.
+- Not direct proof of a cosmological axis or new force law.
+- Non-confirmatory outputs are explicitly retained as downgrade records.
+
+Updated files:
+
+- `README.md`
+- `docs/data-validation-index.md`
+
 ### ORCID author identifier added
 
 Added the lead researcher ORCID identifier to public repository metadata and citation guidance.
