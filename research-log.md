@@ -2,6 +2,36 @@
 
 This file records public repository updates and research-index changes.
 
+## 2026-06-13
+
+### SPARC 175 rotation-residual validation layer added
+
+Added a new validation page:
+
+- `validation/sparc-175-rotation-residual-layer.md`
+
+The page records the current 175-galaxy SPARC rotation-residual audit track, including:
+
+- Core 3391-row / 175-galaxy master-table structure.
+- DAT enrichment status: 175 DAT files parsed, 3391 / 3391 master rows matched, and full `v_gas` coverage.
+- GTPC v0.1 dual-target pilot outcome: NGC2403 failed, NGC5005 downgraded, overall failed.
+- GTPC v0.2 NGC5005 M1-only gas-proxy result: strong BIC improvement, perfect sign alignment, close peak alignment, but Pearson shape-correlation failure under the fixed threshold.
+- SLP projection-readiness boundary: DAT files supply distance but not RA/DEC or inclination, so projection-null testing remains blocked until external metadata is joined.
+
+Public claim level:
+
+- In audit / residual diagnostic candidate.
+- Failed or downgraded candidate submodels are retained as part of the audit record.
+- Not a final physical interpretation.
+- Not a replacement of standard dynamical modeling.
+- Not an SLP projection confirmation.
+
+Updated files:
+
+- `README.md`
+- `docs/data-validation-index.md`
+- `validation/sparc-175-rotation-residual-layer.md`
+
 ## 2026-06-12
 
 ### Pipeline and formal obstruction validation page added
@@ -118,45 +148,3 @@ Purpose:
 - Prepare a clean structure for small-community observation, terminology testing, and reproducibility feedback.
 
 ### DOI archive update
-
-Updated the public TSAM archive reference in `README.md` and later restored the complete Zenodo archive table.
-
-Current Zenodo DOI archive chain:
-
-- `10.5281/zenodo.19456031` — TSAM Primary Archive
-- `10.5281/zenodo.19951835` — TSAM Deep Correction
-- `10.5281/zenodo.20249937` — TSAM Updated Archive
-- `10.5281/zenodo.20267618` — CRIF Paper
-
-### Public repository structure update
-
-Updated the repository from a short archive pointer into a fuller public research index.
-
-Changes:
-
-- Expanded `README.md` with a clearer TSAM research-position summary.
-- Added `docs/theory-overview.md` for the main theoretical introduction.
-- Added `docs/validation-principles.md` to document the observational validation boundary.
-- Added `docs/research-roadmap.md` to organize the next research phases.
-- Added this research log to track future public updates.
-
-### Methodological note
-
-The repository now emphasizes the following public-facing standard:
-
-- Observational constraints first.
-- Provisional labeling of unverified assumptions.
-- Freeze-review cycles for theory growth.
-- Cross-dataset validation over single-dataset pattern fitting.
-- Clear separation between archived papers, active hypotheses, and validation methods.
-
-## Planned next updates
-
-Potential future updates:
-
-- Add a CRIF methodology page.
-- Add a SPARC residual-audit index.
-- Add a QSO / LRG cross-epoch audit index.
-- Add a CMB validation note.
-- Add validation-layer templates under `validation/`.
-- Add external-community observation notes after initial review testing.
