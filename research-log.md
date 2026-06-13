@@ -4,6 +4,35 @@ This file records public repository updates and research-index changes.
 
 ## 2026-06-13
 
+### SPARC 175 SLP/SMG freeze record added
+
+Added a new freeze-record page:
+
+- `validation/sparc-175-slp-smg-freeze-record-2026-06-13.md`
+
+The page records the metadata-complete SPARC 175 sky-coordinate audit chain and freezes the projection / node-conditioned routes after negative or degraded results:
+
+- SPARC metadata enrichment reached `SLP_READY = true`: RA/DEC, Distance, Inclination, and ecliptic-coordinate coverage were all 175 / 175; redshift / Vsys was intentionally not queried.
+- SLP v0.1 Projection Null Audit returned `DEGRADED`: strongest directional FDR q was 0.01116, but direction strength was weaker than distance / inclination strength.
+- SLP v0.1b Confounder Decomposition Audit returned `FAIL_CONFOUNDER_DOMINATED`: partial and regression direction terms were not significant, permutation p was 0.138, the signal was distance-bin dependent and top5 dominated.
+- SMG v0.1 Candidate-Node Falsification Audit returned `FAIL_NODE_CONFOUNDER_DOMINATED`: candidate nodes were not significant, not better than random node sets, and top5 dominated.
+- SMG v0.2 Node-Conditioned Residual Morphology Audit returned `DEGRADED_WEAK_NODE_ASSOCIATION`: S2 / S_BROAD showed weak inner-inversion morphology, but not strong evidence after FDR correction.
+- SMG v0.2b S2/S_BROAD Focused Morphology Forensic Audit returned `FAIL_S2_ARTIFACT_OR_CONTROL_MATCHED`: only 2 / 5 S2 galaxies satisfied stable multiradius inner inversion; 4 / 5 were `err_v` sensitive; 3 / 5 were baryon-overestimate candidates; matched-control and random-group null tests did not pass.
+
+Public claim level:
+
+- Negative / degraded audit archive.
+- GTPC, SLP, and SMG are not confirmed.
+- No mirror-galaxy model is confirmed.
+- No solar-system projection interpretation is supported.
+- No dark-matter or standard dynamical model is refuted by this audit chain.
+- The next recommended direction is a conventional SPARC error / baryon-dominance forensic audit.
+
+Updated files:
+
+- `docs/data-validation-index.md`
+- `validation/sparc-175-slp-smg-freeze-record-2026-06-13.md`
+
 ### SPARC 175 rotation-residual validation layer added
 
 Added a new validation page:
