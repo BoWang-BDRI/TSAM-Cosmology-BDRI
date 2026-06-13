@@ -40,6 +40,7 @@ Core methodological commitments:
 | [`docs/glossary.md`](docs/glossary.md) | Working definitions of TSAM-related terms |
 | [`docs/how-to-cite.md`](docs/how-to-cite.md) | Citation guide for GitHub and Zenodo archive records |
 | [`validation/midfield-cosmology-layer.md`](validation/midfield-cosmology-layer.md) | Midfield redshift / angular-density diagnostic layer |
+| [`validation/sparc-175-rotation-residual-layer.md`](validation/sparc-175-rotation-residual-layer.md) | SPARC 175 rotation-residual audit, GTPC pilot results, DAT enrichment, and SLP-readiness boundary |
 | [`validation/rtn-nearfield-layer.md`](validation/rtn-nearfield-layer.md) | RTN near-field dynamical-response diagnostic layer |
 | [`validation/solar-system-layer.md`](validation/solar-system-layer.md) | Solar-system / small-body fast-pass validation layer |
 | [`validation/pipeline-and-formal-obstruction-tests.md`](validation/pipeline-and-formal-obstruction-tests.md) | Pipeline diagnostics and formal obstruction test summary |
@@ -73,7 +74,7 @@ TSAM-related work is currently organized around several audit layers:
 | QSO redshift-space structure | Cross-epoch continuity and phase-consistency layer |
 | LRG / galaxy-density fields | Matter-distribution and large-scale wall detection layer |
 | [Midfield cosmology diagnostics](validation/midfield-cosmology-layer.md) | Redshift/angular-density scan and post-deconvolution systematics audit; currently diagnostic-candidate only |
-| SPARC rotation residuals | Local dynamical-prior stress test using galaxy rotation data |
+| [SPARC 175 rotation residuals](validation/sparc-175-rotation-residual-layer.md) | Local dynamical-prior stress test using 175 SPARC galaxy rotation curves; GTPC pilot models currently failed/downgraded under fixed audit rules |
 | [RTN near-field diagnostics](validation/rtn-nearfield-layer.md) | RTN non-conservative acceleration and epsilon-audit candidate layer |
 | [Solar-system boundary tests](validation/solar-system-layer.md) | Low-redshift termination and local-frame consistency checks; currently fast-pass small-body triage |
 | [Pipeline and formal obstruction tests](validation/pipeline-and-formal-obstruction-tests.md) | Catalog-level Jacobian jump diagnostics and formal operator-space obstruction tests |
