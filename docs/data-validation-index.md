@@ -30,7 +30,7 @@ Each validation track should eventually specify dataset source, preprocessing as
 | QSO redshift-space structure | Cross-epoch continuity and phase-consistency tests | Proposed / In audit |
 | LRG / galaxy-density fields | Matter-distribution and large-scale wall detection | Proposed / In audit |
 | [Midfield cosmology diagnostics](../validation/midfield-cosmology-layer.md) | Redshift/angular-density scan and post-deconvolution systematics audit | In audit / Diagnostic candidate |
-| SPARC rotation residuals | Local dynamical-prior stress test using galaxy rotation data | In audit |
+| [SPARC 175 rotation residuals](../validation/sparc-175-rotation-residual-layer.md) | Local dynamical-prior stress test; GTPC pilot models currently failed/downgraded under fixed audit rules | In audit / Diagnostic candidate / Downgraded submodels |
 | [RTN near-field diagnostics](../validation/rtn-nearfield-layer.md) | RTN non-conservative acceleration and epsilon-audit candidate layer | In audit / Diagnostic candidate |
 | [Solar-system boundary tests](../validation/solar-system-layer.md) | Low-redshift termination and local-frame consistency checks; currently small-body angular-distribution triage | In audit / Fast-pass triage |
 | [Pipeline and formal obstruction tests](../validation/pipeline-and-formal-obstruction-tests.md) | Jacobian jump audit plus formal operator-space obstruction diagnostics | In audit / Formal diagnostic |
@@ -42,6 +42,7 @@ Each validation track should eventually specify dataset source, preprocessing as
 | Page | Status | Notes |
 |---|---|---|
 | [`validation/midfield-cosmology-layer.md`](../validation/midfield-cosmology-layer.md) | In audit / Diagnostic candidate | Corrected 0.4-0.7 angular-density matrix, 0.7-1.0 matrix, stage-2 audit, and reconstruction accounting |
+| [`validation/sparc-175-rotation-residual-layer.md`](../validation/sparc-175-rotation-residual-layer.md) | In audit / Diagnostic candidate / Downgraded submodels | 175-galaxy SPARC residual layer, GTPC v0.1/v0.2 pilot outcomes, DAT enrichment, and SLP projection-readiness boundary |
 | [`validation/rtn-nearfield-layer.md`](../validation/rtn-nearfield-layer.md) | In audit / Diagnostic candidate | RTN model-response and epsilon-audit visualization layer; requires raw ephemeris reproducibility package |
 | [`validation/solar-system-layer.md`](../validation/solar-system-layer.md) | In audit / Fast-pass triage | Family-limited small-body orbital-direction anisotropy candidate; not a TSAM confirmation claim |
 | [`validation/pipeline-and-formal-obstruction-tests.md`](../validation/pipeline-and-formal-obstruction-tests.md) | In audit / Formal diagnostic | ELG NGC WEIGHT Jacobian jump candidate; formal spectral, algebraic, measure, Hilbert, and BRST diagnostics; includes downgrade notes |
@@ -75,7 +76,7 @@ The next documentation stage should add or mature one page per validation layer:
 - `validation/qso-layer.md`
 - `validation/lrg-layer.md`
 - `validation/midfield-cosmology-layer.md` — active diagnostic-candidate page added
-- `validation/sparc-layer.md`
+- `validation/sparc-175-rotation-residual-layer.md` — active residual-diagnostic page added
 - `validation/rtn-nearfield-layer.md` — active diagnostic-candidate page added
 - `validation/solar-system-layer.md` — active fast-pass triage page added
 - `validation/pipeline-and-formal-obstruction-tests.md` — active formal-diagnostic page added
